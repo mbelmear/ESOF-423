@@ -1,0 +1,566 @@
+{
+  "id": "93603830-7e5c-4f23-91fe-3fe3dabb6202",
+  "version": "2.0",
+  "name": "test-suite-wikipedia",
+  "url": "https://en.wikipedia.org",
+  "tests": [{
+    "id": "108947bc-c5f1-445e-9085-bc153a98b3e3",
+    "name": "Create a new user account",
+    "commands": [{
+      "id": "efe58e08-cad9-412a-8b40-9e5becd217f3",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6d85399-46f8-430b-902d-fd2c20a43e18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7121f8cd-f435-4af3-83ff-3c3dfe0815a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pt-createaccount-2 span",
+      "targets": [
+        ["css=#pt-createaccount-2 span", "css:finder"],
+        ["xpath=//li[@id='pt-createaccount-2']/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "437b183a-1251-4731-94ae-ac96033d0283",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "142859bc-5636-4317-88af-275de869f9a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "mikey"
+    }, {
+      "id": "38509327-20ac-49c7-a2c2-18b2eaa36cf3",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpPassword2",
+      "targets": [
+        ["id=wpPassword2", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword2", "css:finder"],
+        ["xpath=//input[@id='wpPassword2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "hellokitty107"
+    }, {
+      "id": "53a5bdf6-255c-4d85-8b0e-201e5f7f7339",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f82c9a8-dc1e-4507-9353-903b21d18d13",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8efd8594-407c-44ee-918f-351441d189aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df718445-0622-4d33-acac-8c5fafda1f6f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd36462-6c7e-4fa2-9e7d-9f25637240cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95691d1a-6594-47a1-aafa-52b88e534b8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3356897-f626-4a68-9f0a-27913d6c345f",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "mikebel"
+    }, {
+      "id": "41fbb319-85c9-4943-af95-08c0e79c0e8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb23849-e81f-4cf9-ac6e-4e41bf9d27e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpName2",
+      "targets": [
+        ["id=wpName2", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName2", "css:finder"],
+        ["xpath=//input[@id='wpName2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "mikebelmeartest"
+    }, {
+      "id": "1b33fd7a-4501-46f7-980d-4de7f5c6280d",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpPassword2",
+      "targets": [
+        ["id=wpPassword2", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword2", "css:finder"],
+        ["xpath=//input[@id='wpPassword2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eebd8c0-5a37-4662-ab3c-9416a926aef9",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpPassword2",
+      "targets": [
+        ["id=wpPassword2", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword2", "css:finder"],
+        ["xpath=//input[@id='wpPassword2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "537d00bc-9e67-444c-b6cf-c445982259f5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=wpPassword2",
+      "targets": [
+        ["id=wpPassword2", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword2", "css:finder"],
+        ["xpath=//input[@id='wpPassword2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f700f50-0914-4473-a7be-f8ecdc2d00b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpPassword2",
+      "targets": [
+        ["id=wpPassword2", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword2", "css:finder"],
+        ["xpath=//input[@id='wpPassword2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5681612c-4099-4446-9ef6-6ad0e855c558",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpPassword2",
+      "targets": [
+        ["id=wpPassword2", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword2", "css:finder"],
+        ["xpath=//input[@id='wpPassword2']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "hellokitty1"
+    }, {
+      "id": "d7d39bee-b6b8-4fcf-8695-9193626cf1ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpRetype",
+      "targets": [
+        ["id=wpRetype", "id"],
+        ["name=retype", "name"],
+        ["css=#wpRetype", "css:finder"],
+        ["xpath=//input[@id='wpRetype']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bb3eaf1-868e-4216-8636-e335030c56eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpRetype",
+      "targets": [
+        ["id=wpRetype", "id"],
+        ["name=retype", "name"],
+        ["css=#wpRetype", "css:finder"],
+        ["xpath=//input[@id='wpRetype']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": "hellokitty1"
+    }, {
+      "id": "8d8b31cf-6024-44d7-890f-3e90a550cd7a",
+      "comment": "",
+      "command": "click",
+      "target": "id=mw-input-captchaWord",
+      "targets": [
+        ["id=mw-input-captchaWord", "id"],
+        ["name=captchaWord", "name"],
+        ["css=#mw-input-captchaWord", "css:finder"],
+        ["xpath=//input[@id='mw-input-captchaWord']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[9]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1370832-5226-434c-8116-b2266bc78118",
+      "comment": "",
+      "command": "type",
+      "target": "id=mw-input-captchaWord",
+      "targets": [
+        ["id=mw-input-captchaWord", "id"],
+        ["name=captchaWord", "name"],
+        ["css=#mw-input-captchaWord", "css:finder"],
+        ["xpath=//input[@id='mw-input-captchaWord']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[9]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "juncocams"
+    }, {
+      "id": "eb5eef67-a59f-4f6c-bca4-1cc55a589da2",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpCreateaccount",
+      "targets": [
+        ["id=wpCreateaccount", "id"],
+        ["name=wpCreateaccount", "name"],
+        ["css=#wpCreateaccount", "css:finder"],
+        ["xpath=//button[@id='wpCreateaccount']", "xpath:attributes"],
+        ["xpath=//form[@id='userlogin2']/div/div[10]/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create your account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b9ed89f-cec7-42ae-be4a-281d15d95a72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mw-input-reason .oo-ui-dropdownWidget-handle",
+      "targets": [
+        ["css=#mw-input-reason .oo-ui-dropdownWidget-handle", "css:finder"],
+        ["xpath=//div[@id='mw-input-reason']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please select...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "391c96a1-af3b-45df-b0f3-7d1d3186e30f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mw-input-wpedited .oo-ui-dropdownWidget-handle",
+      "targets": [
+        ["css=#mw-input-wpedited .oo-ui-dropdownWidget-handle", "css:finder"],
+        ["xpath=//div[@id='mw-input-wpedited']/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please select...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00dc06cd-366a-4371-9bb8-d26adc9f1c63",
+      "comment": "",
+      "command": "click",
+      "target": "id=ooui-php-4",
+      "targets": [
+        ["id=ooui-php-4", "id"],
+        ["name=wpemail", "name"],
+        ["css=#ooui-php-4", "css:finder"],
+        ["xpath=//input[@id='ooui-php-4']", "xpath:attributes"],
+        ["xpath=//div[@id='mw-input-wpemail']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ae6157-996c-4680-a5ab-c1fc76ada67e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ooui-php-4",
+      "targets": [
+        ["id=ooui-php-4", "id"],
+        ["name=wpemail", "name"],
+        ["css=#ooui-php-4", "css:finder"],
+        ["xpath=//input[@id='ooui-php-4']", "xpath:attributes"],
+        ["xpath=//div[@id='mw-input-wpemail']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "h37r784@montana.edu"
+    }, {
+      "id": "7034cdc8-9c8f-4d76-85ec-4b920f9f3dc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ooui-php-525 .oo-ui-labelElement-label",
+      "targets": [
+        ["css=#ooui-php-525 .oo-ui-labelElement-label", "css:finder"],
+        ["xpath=//span[@id='ooui-php-525']/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c61bef-2afd-46e1-8248-fa6bb886a006",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to your homepage",
+      "targets": [
+        ["linkText=Go to your homepage", "linkText"],
+        ["css=.mw-ui-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to your homepage')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/w/index.php?title=Special:Homepage&source=specialwelcomesurvey')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to your homepage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "573b4c22-15cb-4bc0-8629-fc370e1202f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Got it",
+      "targets": [
+        ["linkText=Got it", "linkText"],
+        ["css=.mw-ui-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Got it')]", "xpath:link"],
+        ["xpath=//div[@id='gt-homepage_welcome-welcome']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Got it')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05494211-957e-4359-9598-c9d645386758",
+    "name": "Login to a user account",
+    "commands": [{
+      "id": "3f097583-8700-40b8-bcff-784569a13c0c",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aa0418e-41d7-4401-b699-411504b7a789",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5bb5b77-1fd5-49bf-90c4-de735d34175f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pt-login-2 span",
+      "targets": [
+        ["css=#pt-login-2 span", "css:finder"],
+        ["xpath=//li[@id='pt-login-2']/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7637a3ab-e184-4bee-a0ae-74be5371f488",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpPassword1",
+      "targets": [
+        ["id=wpPassword1", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword1", "css:finder"],
+        ["xpath=//input[@id='wpPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "hellokitty1"
+    }, {
+      "id": "fcf14308-2151-449c-85b0-2cac83943f70",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpLoginAttempt",
+      "targets": [
+        ["id=wpLoginAttempt", "id"],
+        ["name=wploginattempt", "name"],
+        ["css=#wpLoginAttempt", "css:finder"],
+        ["xpath=//button[@id='wpLoginAttempt']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bcb18aa1-71e9-4211-8323-7923c4b68ad8",
+    "name": "Logout from a user account",
+    "commands": [{
+      "id": "b67464a0-02ca-432a-a7d5-3d59c9a95633",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dd87217-d9a9-42ee-9ab9-0643c5e028d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c59198ea-8e09-4c4d-ae20-6b795720febe",
+      "comment": "",
+      "command": "click",
+      "target": "id=vector-user-links-dropdown-checkbox",
+      "targets": [
+        ["id=vector-user-links-dropdown-checkbox", "id"],
+        ["css=#vector-user-links-dropdown-checkbox", "css:finder"],
+        ["xpath=//input[@id='vector-user-links-dropdown-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='vector-user-links-dropdown']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37f7c2bf-6012-4d5a-a325-4cea5accee84",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pt-logout span:nth-child(2)",
+      "targets": [
+        ["css=#pt-logout span:nth-child(2)", "css:finder"],
+        ["xpath=//li[@id='pt-logout']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e010d3bb-1b35-4358-be54-c8e873b7c401",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Main Page",
+      "targets": [
+        ["linkText=Main Page", "linkText"],
+        ["css=#mw-returnto > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Main Page')]", "xpath:link"],
+        ["xpath=//p[@id='mw-returnto']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Main_Page')])[3]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Main Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "923e7565-d688-4ad5-aa99-a28c76b579cd",
+    "name": "test-suite-wikipedia",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["108947bc-c5f1-445e-9085-bc153a98b3e3", "05494211-957e-4359-9598-c9d645386758", "bcb18aa1-71e9-4211-8323-7923c4b68ad8"]
+  }],
+  "urls": ["https://en.wikipedia.org/"],
+  "plugins": []
+}
