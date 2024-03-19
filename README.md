@@ -1,2 +1,2 @@
 # ESOF-423
-This is the project I helped complete in ESOF 423.
+These are all of the technical assignments I completed in ESOF 423.
