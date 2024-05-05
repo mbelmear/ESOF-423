@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ESOF-423/static/css/main.cff4b4cd.css",
+    "main.js": "/ESOF-423/static/js/main.20bfca3f.js",
+    "static/js/453.49189750.chunk.js": "/ESOF-423/static/js/453.49189750.chunk.js",
+    "static/media/Vines.svg": "/ESOF-423/static/media/Vines.4f5f2b6f98a46ddd0bc0.svg",
+    "static/media/hrdc-logo.png": "/ESOF-423/static/media/hrdc-logo.4147f9ad6b70e2358fbc.png",
+    "index.html": "/ESOF-423/index.html",
+    "main.cff4b4cd.css.map": "/ESOF-423/static/css/main.cff4b4cd.css.map",
+    "main.20bfca3f.js.map": "/ESOF-423/static/js/main.20bfca3f.js.map",
+    "453.49189750.chunk.js.map": "/ESOF-423/static/js/453.49189750.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff4b4cd.css",
+    "static/js/main.20bfca3f.js"
+  ]
+}
